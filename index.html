@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Step Form</title>
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Step 1 -->
+        <div class="form-step active">
+
+            <h2>Personal Information</h2>
+
+            <input type="text" placeholder="Enter Your Name">
+            <input type="email" placeholder="Enter Your Email">
+            <input type="text" placeholder="Enter Your Phone">
+
+            <button class="next-btn">Next</button>
+        </div>
+
+        <!-- Step 2 -->
+        <div class="form-step">
+
+            <h2>Address Information</h2>
+
+            <input type="text" placeholder="Enter Your City">
+            <input type="text" placeholder="Enter Your Country">
+            <input type="text" placeholder="Enter Your Address">
+
+            <div class="buttons">
+                <button class="prev-btn">Previous</button>
+                <button class="next-btn">Next</button>
+            </div>
+
+        </div>
+
+        <!-- Step 3 -->
+        <div class="form-step">
+
+            <h2>Account Information</h2>
+
+            <input type="text" placeholder="Enter Username">
+            <input type="password" placeholder="Enter Password">
+
+            <div class="buttons">
+                <button class="prev-btn">Previous</button>
+                <button class="submit-btn">Submit</button>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+
+</body>
+</html>
